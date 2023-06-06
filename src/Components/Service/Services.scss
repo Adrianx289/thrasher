@@ -1,0 +1,184 @@
+.services{
+    width: 100%;
+    background-color: var(--greyBg);
+    .servicesContainer{
+        .servicesDivText{
+            h2{
+                font-size: 20px;
+                text-align: center;
+            }
+
+            p{
+                font-size: 15px;
+                margin-bottom: 15px;
+            }
+        }
+
+        .servicesDivImgContainer{
+            gap: 2.5rem;
+            margin-top: 3rem;
+
+            .servicesDivImg{
+                margin: auto;
+                background: var(--whiteColor);
+                padding: 2rem 1rem;
+                border-radius: 100px;
+                gap: 1rem;
+                text-align: center;
+                height: 300px;
+                width: 100%;
+
+                .servicesDivCon{
+                    justify-content: center;
+                    background: var(--thirdColor);
+                    height: 160px;
+                    padding: 1rem;
+                    border-radius: 7rem;
+
+                    .servicesImg{
+                        height: 100%;
+                        border-radius: 7rem;
+                        color: var(--whiteColor);
+                        border: 3px solid var(--whiteColor)
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and ( min-width: 480px) {
+    .services{
+        .servicesContainer{
+            .servicesDivText{
+                h2{
+                    font-size: 22px;
+                }
+    
+                p{
+                    font-size: 16px;
+                }
+            }
+    
+            .servicesDivImgContainer{
+                .servicesDivImg{
+                    height: 330px;
+                    width: 90%;
+    
+                    .servicesDivCon{
+                        height: 220px;
+                    }
+                }
+                
+                h3{
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and ( min-width: 570px) {
+    .services{
+        .servicesContainer{
+            .servicesDivText{
+                h2{
+                    font-size: 26px;
+                }
+    
+                p{
+                    font-size: 18px;
+                }
+            }
+    
+            .servicesDivImgContainer{
+                .servicesDivImg{
+                    height: 360px;
+                    width: 82%;
+    
+                    .servicesDivCon{
+                        height: 230px;
+                    }
+                }
+                
+                h3{
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and ( min-width: 680px) {
+    .services{
+        .servicesContainer{
+            .servicesDivImgContainer{
+                .servicesDivImg{
+                    height: 400px;
+                    width: 85%;
+    
+                    .servicesDivCon{
+                        height: 280px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and ( min-width: 768px) {
+    .services{
+        .servicesContainer{
+            padding-left: 0;
+            padding-right: 0;
+            margin: 0 70px;
+            .servicesDivText{
+                h2{
+                    font-size: 28px;
+                }
+    
+                p{
+                    font-size: 20px;
+                }
+            }
+    
+            .servicesDivImgContainer{
+                grid-template-columns: repeat(2,1fr);
+
+                .servicesDivImg{
+                    height: 360px;
+                    width: 90%;
+    
+                    .servicesDivCon{
+                        height: 180px;
+                    }
+                }
+                
+                h3{
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and ( min-width: 960px) {
+    .services{
+        .servicesContainer{   
+            .servicesDivImgContainer{
+                .servicesDivImg{
+                    height: 360px;
+                    width: 340px;
+    
+                    .servicesDivCon{
+                        height: 200px;
+                    }
+                }
+                
+                h3{
+                    font-size: 27px;
+                }
+            }
+        }
+    }
+}

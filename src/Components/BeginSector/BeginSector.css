@@ -1,0 +1,103 @@
+.beginSector {
+  width: 100%;
+  height: auto;
+}
+.beginSector .beginSectorDivImg {
+  position: relative;
+}
+.beginSector .beginSectorText {
+  width: 100%;
+  position: absolute;
+  top: 20%;
+}
+.beginSector .beginSectorText h1 {
+  text-align: center;
+  color: var(--whiteColor);
+  font-weight: 700;
+  font-size: 20px;
+}
+.beginSector .beginSectorText h2 {
+  padding: 0;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--whiteColor);
+}
+
+@media screen and (min-width: 480px) {
+  .beginSector .beginSectorText {
+    top: 26%;
+  }
+  .beginSector .beginSectorText h1 {
+    font-size: 30px;
+  }
+  .beginSector .beginSectorText h2 {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 570px) {
+  .beginSector .beginSectorText {
+    top: 28%;
+  }
+  .beginSector .beginSectorText h1 {
+    font-size: 40px;
+  }
+  .beginSector .beginSectorText h2 {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 680px) {
+  .beginSector .beginSectorText {
+    top: 37%;
+  }
+  .beginSector .beginSectorText h1 {
+    font-size: 47px;
+  }
+  .beginSector .beginSectorText h2 {
+    font-size: 47px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .beginSector .beginSectorText {
+    top: 42%;
+  }
+  .beginSector .beginSectorText h1 {
+    font-size: 55px;
+  }
+  .beginSector .beginSectorText h2 {
+    font-size: 55px;
+  }
+}
+@media screen and (min-width: 960px) {
+  .beginSector .beginSectorText {
+    top: 45%;
+  }
+  .beginSector .beginSectorText h1 {
+    font-size: 65px;
+  }
+  .beginSector .beginSectorText h2 {
+    font-size: 65px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .beginSector .beginSectorText {
+    top: 50%;
+  }
+  .beginSector .beginSectorText h1 {
+    font-size: 73px;
+  }
+  .beginSector .beginSectorText h2 {
+    font-size: 73px;
+  }
+}
+@media screen and (min-width: 1332px) {
+  .beginSector .beginSectorText {
+    top: 62%;
+  }
+  .beginSector .beginSectorText h1 {
+    font-size: 83px;
+  }
+  .beginSector .beginSectorText h2 {
+    font-size: 83px;
+  }
+}/*# sourceMappingURL=BeginSector.css.map */

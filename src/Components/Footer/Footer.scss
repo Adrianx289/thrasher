@@ -1,0 +1,228 @@
+.footer{
+    width: 100%;
+    height: auto;
+    background: var(--greyBg);
+    margin-top: 20px;
+
+    .footerContainer{
+        margin-left: 25px;
+        margin-right: 25px;
+        gap: 1.5rem;
+
+        .footerImgDiv{
+            margin-top: 30px;
+
+            img{
+                width: 35%;
+            }
+        }
+
+        .footerInfoDiv{
+            p{
+                font-size: 14px;
+            }
+        }
+
+        .footerLinksDiv{
+            span{
+                font-weight: 700;
+                padding-bottom: 1rem;
+            }
+
+            ul{
+                margin-bottom: 5px;
+
+                li{
+                    a{
+                        color: var(--greyText);
+                        transition: var(--transition);
+
+                        &:hover{
+                            color: var(--primaryColor);
+                            font-weight: 100;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .footerSocialDiv{
+            span{
+                font-weight: 700;
+            }
+
+            .footerSocialIconDiv{
+                margin-top: 15px;
+                height: 4rem;
+            }
+
+            .socialIcon{
+                width: 2.5rem;
+                height: auto;
+                color: var(--greyText);
+                border: 1px solid var(--greyColor);
+                margin-right: 1rem;
+                border-radius: 20px;
+                padding: 10px 5px;
+                box-shadow: var(--boxShadow);
+                transition: var(--transition);
+
+                &:hover{
+                    margin-bottom: 1rem;
+                    background-color: var(--primaryColor);
+                    color: var(--whiteColor);
+                }
+            }
+        }
+    }
+
+    .footerSing{
+        margin-top: 20px;
+        border-top: 1px solid var(--greyText);
+        padding: 1rem 0;
+
+        p{
+            text-align: center;
+        }
+    }
+}
+
+@media screen and ( min-width: 480px) {
+    .footer{
+        .footerContainer{
+            .footerImgDiv{
+                img{
+                        width: 28%;
+                }
+            }
+            .footerInfoDiv{
+                p{
+                    font-size: 16px;
+                }
+            }
+            .footerLinksDiv{
+                span{
+                    font-size: 18px;
+                }
+    
+                ul{
+                    li{
+                        a{
+                            font-size: 16.5px;
+                        }
+                    }
+                }
+            }
+    
+            .footerSocialDiv{
+                span{
+                    font-size: 18px;
+                } 
+            }
+        }
+  
+        .footerSing{
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+@media screen and ( min-width: 570px) {
+    .footer{
+        .footerContainer{
+            .footerImgDiv{
+                img{
+                        width: 25%;
+                }
+            }
+            .footerInfoDiv{
+                p{
+                    font-size: 17px;
+                }
+            }
+        }
+  
+        .footerSing{
+            p{
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+@media screen and ( min-width: 680px) {
+    .footer{
+        padding-top: 1rem ;
+
+        .footerContainer{
+            grid-template-columns: repeat(2,1fr);
+
+            .footerImgDiv{
+                img{
+                        width: 50%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and ( min-width: 768px) {
+    .footer{
+        .footerContainer{
+            .footerImgDiv{
+                img{
+                        width: 40%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and ( min-width: 1024px) {
+    .footer{
+        padding-top: 1.5rem;
+        margin-top: 30px;
+
+        .footerContainer{
+            grid-template-columns: repeat(4,1fr);
+
+            .footerImgDiv{
+                img{
+                    margin-left: 15px;
+                    width: 75%;
+                }
+            }
+            .footerInfoDiv{
+                p{
+                    font-size: 16px;
+                }
+            }
+            .footerLinksDiv{
+                margin-left: 65px;
+
+                span{
+                    font-size: 21px;
+                }
+    
+                ul{
+                    li{
+                        a{
+                            font-size: 19.5px;
+                        }
+                    }
+                }
+            }
+    
+            .footerSocialDiv{
+
+                span{
+                    font-size: 20px;
+                    
+                } 
+            }
+        }
+    }
+}

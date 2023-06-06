@@ -1,0 +1,104 @@
+.contac .contacContainer {
+  width: 100%;
+  gap: 2rem;
+}
+.contac .contacContainer .contacDivContainer {
+  width: 100%;
+  gap: 1.5rem;
+}
+.contac .contacContainer .contacDivContainer .iconDivGroup {
+  border: 3px solid var(--greyBg);
+  border-radius: 16px;
+  padding: 2rem 0;
+}
+.contac .contacContainer .contacDivContainer .iconDivGroup .iconGroup {
+  margin-right: 1rem;
+  margin-left: 0.8rem;
+  gap: 0.5rem;
+}
+.contac .contacContainer .contacDivContainer .iconDivGroup .iconGroup .iconDiv {
+  padding: 16px 10px;
+  border-radius: 3rem;
+  background: var(--thirdColor);
+}
+.contac .contacContainer .contacDivContainer .iconDivGroup .iconGroup .iconDiv .icon {
+  color: var(--whiteColor);
+  width: 1.2rem;
+  height: auto;
+}
+.contac .contacContainer .contacDivContainer .iconDivGroup .text h2 {
+  padding-top: 0;
+  padding-bottom: 0.5rem;
+  color: var(--blackColor);
+  font-weight: 700;
+  font-size: 18px;
+}
+.contac .contacContainer .contacDivContainer .iconDivGroup .text h4 {
+  padding-top: 0;
+  padding-bottom: 0.5rem;
+  color: var(--blackColor);
+  font-weight: 400;
+  font-size: 14px;
+}
+.contac .contacContainer .formContariner {
+  width: 100%;
+}
+.contac .contacContainer .formContariner .tittleDiv h4 {
+  width: 100%;
+  text-align: center;
+}
+.contac .contacContainer .formContariner .formElement {
+  width: 100%;
+}
+.contac .contacContainer .formContariner .formElement .formSection {
+  margin-bottom: 0.8rem;
+}
+.contac .contacContainer .formContariner .formElement .formSection div input {
+  width: 100%;
+}
+.contac .contacContainer .formContariner .formElement .formSection div textarea {
+  width: 100%;
+  height: 6rem;
+  font-size: 14px;
+}
+.contac .contacContainer .formContariner .formElement input {
+  width: 40%;
+}
+
+@media screen and (min-width: 480px) {
+  .contac .contacContainer .contacDivContainer .iconDivGroup {
+    margin-right: 1rem;
+  }
+  .contac .contacContainer .contacDivContainer .iconDivGroup .iconGroup {
+    margin-left: 1.5rem;
+  }
+  .contac .contacContainer .contacDivContainer .iconDivGroup .iconGroup .iconDiv .icon {
+    width: 1.5rem;
+  }
+  .contac .contacContainer .contacDivContainer .iconDivGroup .text {
+    margin-left: 1rem;
+  }
+  .contac .contacContainer .contacDivContainer .iconDivGroup .text h2 {
+    font-size: 20px;
+  }
+  .contac .contacContainer .contacDivContainer .iconDivGroup .text h4 {
+    font-size: 16px;
+  }
+  .contac .contacContainer .formContariner .tittleDiv h4 {
+    font-size: 20px;
+  }
+  .contac .contacContainer .formContariner .formElement .formSection {
+    margin-bottom: 0.8rem;
+  }
+  .contac .contacContainer .formContariner .formElement .formSection div input {
+    width: 100%;
+  }
+  .contac .contacContainer .formContariner .formElement .formSection div textarea {
+    width: 100%;
+    height: 6rem;
+    font-size: 14px;
+  }
+  .contac .contacContainer .formContariner .formElement input {
+    width: 30%;
+  }
+}/*# sourceMappingURL=Contac.css.map */

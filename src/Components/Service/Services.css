@@ -1,0 +1,123 @@
+.services {
+  width: 100%;
+  background-color: var(--greyBg);
+}
+.services .servicesContainer .servicesDivText h2 {
+  font-size: 20px;
+  text-align: center;
+}
+.services .servicesContainer .servicesDivText p {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.services .servicesContainer .servicesDivImgContainer {
+  gap: 2.5rem;
+  margin-top: 3rem;
+}
+.services .servicesContainer .servicesDivImgContainer .servicesDivImg {
+  margin: auto;
+  background: var(--whiteColor);
+  padding: 2rem 1rem;
+  border-radius: 100px;
+  gap: 1rem;
+  text-align: center;
+  height: 300px;
+  width: 100%;
+}
+.services .servicesContainer .servicesDivImgContainer .servicesDivImg .servicesDivCon {
+  justify-content: center;
+  background: var(--thirdColor);
+  height: 160px;
+  padding: 1rem;
+  border-radius: 7rem;
+}
+.services .servicesContainer .servicesDivImgContainer .servicesDivImg .servicesDivCon .servicesImg {
+  height: 100%;
+  border-radius: 7rem;
+  color: var(--whiteColor);
+  border: 3px solid var(--whiteColor);
+}
+
+@media screen and (min-width: 480px) {
+  .services .servicesContainer .servicesDivText h2 {
+    font-size: 22px;
+  }
+  .services .servicesContainer .servicesDivText p {
+    font-size: 16px;
+  }
+  .services .servicesContainer .servicesDivImgContainer .servicesDivImg {
+    height: 330px;
+    width: 90%;
+  }
+  .services .servicesContainer .servicesDivImgContainer .servicesDivImg .servicesDivCon {
+    height: 220px;
+  }
+  .services .servicesContainer .servicesDivImgContainer h3 {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 570px) {
+  .services .servicesContainer .servicesDivText h2 {
+    font-size: 26px;
+  }
+  .services .servicesContainer .servicesDivText p {
+    font-size: 18px;
+  }
+  .services .servicesContainer .servicesDivImgContainer .servicesDivImg {
+    height: 360px;
+    width: 82%;
+  }
+  .services .servicesContainer .servicesDivImgContainer .servicesDivImg .servicesDivCon {
+    height: 230px;
+  }
+  .services .servicesContainer .servicesDivImgContainer h3 {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 680px) {
+  .services .servicesContainer .servicesDivImgContainer .servicesDivImg {
+    height: 400px;
+    width: 85%;
+  }
+  .services .servicesContainer .servicesDivImgContainer .servicesDivImg .servicesDivCon {
+    height: 280px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .services .servicesContainer {
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 70px;
+  }
+  .services .servicesContainer .servicesDivText h2 {
+    font-size: 28px;
+  }
+  .services .servicesContainer .servicesDivText p {
+    font-size: 20px;
+  }
+  .services .servicesContainer .servicesDivImgContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .services .servicesContainer .servicesDivImgContainer .servicesDivImg {
+    height: 360px;
+    width: 90%;
+  }
+  .services .servicesContainer .servicesDivImgContainer .servicesDivImg .servicesDivCon {
+    height: 180px;
+  }
+  .services .servicesContainer .servicesDivImgContainer h3 {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 960px) {
+  .services .servicesContainer .servicesDivImgContainer .servicesDivImg {
+    height: 360px;
+    width: 340px;
+  }
+  .services .servicesContainer .servicesDivImgContainer .servicesDivImg .servicesDivCon {
+    height: 200px;
+  }
+  .services .servicesContainer .servicesDivImgContainer h3 {
+    font-size: 27px;
+  }
+}/*# sourceMappingURL=Services.css.map */

@@ -1,0 +1,269 @@
+.header{
+    .headerDiv{
+        width: 100%;
+        padding: 0.5rem;
+        justify-content: space-between;
+
+        .logoDiv{
+            
+            img{
+                width: 20%;
+                height: auto;
+            }
+
+            h2{
+                padding-left: 15px;
+                color: var(--blackColor);
+                font-size: 20px;
+            }
+        }
+
+        .listDiv{
+            ul{
+                color: var(--blackColor);
+                gap: 0.5rem;
+                li{
+                    color: var(--textColor);
+                    &:hover{
+                        color: var(--primaryColor);
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+
+        .toggleIcon{
+            .icon{
+                width: 30px;
+                height: auto;
+            }
+        }
+    }
+}
+
+
+
+@media screen and ( max-width: 959px) {
+    
+    .header{
+        .headerDiv{  
+            .listDiv{
+                position: absolute;
+                top: 4.5rem;
+                right: -600px;
+                background: var(--greyBg);
+                box-shadow: var(--boxShadow);
+                border-radius: 20px;
+                border: 4px solid var(--whiteColor);
+                padding: 2rem 3rem;
+                width: 80%;
+                z-index: 2000;
+
+                ul{
+                    flex-direction: column;
+                    text-align: center;
+                    li{
+                        margin-bottom: 1rem;
+                    }
+                }
+
+                .btnList{
+                    display: block;
+                    margin: auto;
+                    margin-top: 1rem;
+                }
+            }
+
+            .showToggleList{
+                right: 30px;
+            }
+
+            .btnBar{
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and ( min-width: 480px) {
+    
+    .header{
+        .headerDiv{  
+            .listDiv{
+                top: 96px;
+            }
+
+            .showToggleList{
+                right: 48px;
+            }
+
+            .toggleIcon{
+                .icon{
+                    width: 35px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and ( min-width: 570px) {
+    
+    .header{
+        .headerDiv{  
+            .logoDiv{
+                h2{
+                    padding-left: 18px;
+                    font-size: 28px;
+                }
+            }
+
+            .listDiv{
+                top: 111px;
+                font-size: 18px;
+            }
+
+            .showToggleList{
+                right: 55px;
+            }
+
+            .btnList{
+                font-size: 18px;
+            }
+
+            .toggleIcon{
+                .icon{
+                    width: 45px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and ( min-width: 680px) {
+    
+    .header{
+        .headerDiv{  
+            .logoDiv{
+                img{
+                    width: 18%;
+                }
+            }
+
+            .listDiv{
+                top: 122px;
+                width: 70%;
+            }
+
+            .showToggleList{
+                right: 103px;
+            }
+
+            .toggleIcon{
+                .icon{
+                    width: 35px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and ( min-width: 768px) {
+    
+    .header{
+        .headerDiv{
+            .listDiv{
+                top: 131px;
+            }
+        }
+    }
+}
+
+@media screen and ( min-width: 960px) {
+    
+    .header{
+        .headerDiv{  
+            .listDiv{
+                margin-right: 30px;
+                ul{
+                    font-weight: 700;
+                    gap: 35px;
+                    li{
+                        font-size: 18px;
+                    }
+                }
+
+                .btnList{
+                    display: none;
+                }
+            }
+
+            .toggleIcon{
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and ( min-width: 1024px) {
+    
+    .header{
+        .headerDiv{  
+            .logoDiv{
+                img{
+                    width: 22%;
+                }
+            }
+
+            .listDiv{
+                margin-right: 10px;
+                ul{
+                    li{
+                        font-size: 19px;
+                    }
+                }
+
+                .btnList{
+                    display: none;
+                }
+            }
+
+            .btnBar{
+                font-size: 19px;
+            }
+
+            .toggleIcon{
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and ( min-width: 1332px) {
+    
+    .header{
+        .headerDiv{  
+
+            .logoDiv{
+            
+                img{
+                    width: 23%;
+                }
+            }
+
+            .listDiv{
+                margin-left: 250px;
+
+                ul{
+                    gap: 50px;
+                    li{
+                        font-size: 20px;
+                    }
+                }
+            }
+
+            .btnBar{
+                font-size: 20px;
+            }
+        }
+    }
+}

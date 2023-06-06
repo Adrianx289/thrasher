@@ -1,0 +1,145 @@
+.beginHome{
+    width: 100%;
+    height: auto;
+
+    .beginHomeDivImg{
+        position: relative;
+    }
+
+    .beginHomeText{
+        width: 80%;
+        position: absolute;
+        top: 25%;
+        right: 25px;
+
+        h4{
+            font-size: 12px;
+            text-align: right;
+        }
+
+        h1{
+            text-align: right; 
+            font-size: 17px;   
+        }
+    }
+}
+
+@media screen and ( min-width: 480px) {
+
+    .beginHome{
+        .beginHomeText{
+            top: 40%;
+            right: 35px;
+    
+            h4{
+                font-size: 15px;
+            }
+    
+            h1{
+                font-size: 20px;   
+            }
+        }
+    }
+}
+
+@media screen and ( min-width: 570px) {
+
+    .beginHome{
+        .beginHomeText{
+            width: 60%;
+            top: 50%;
+            right: 40px;
+    
+            h4{
+                font-size: 18px;
+            }
+    
+            h1{
+                font-size: 23px;   
+            }
+        }
+    }
+}
+
+@media screen and ( min-width: 680px) {
+
+    .beginHome{
+        .beginHomeText{
+            top: 55%;
+    
+            h4{
+                font-size: 20px;
+            }
+    
+            h1{
+                font-size: 25px;   
+            }
+        }
+    }
+}
+
+@media screen and ( min-width: 768px) {
+
+    .beginHome{
+        .beginHomeText{
+            top: 60%;
+            right: 50px;
+    
+            h4{
+                font-size: 25px;
+            }
+    
+            h1{
+                font-size: 30px;   
+            }
+        }
+    }
+}
+
+@media screen and ( min-width: 960px) {
+
+    .beginHome{
+        .beginHomeText{
+            top: 72%;
+            right: 59px;
+    
+            h4{
+                font-size: 28px;
+            }
+    
+            h1{
+                font-size: 33px;   
+            }
+        }
+    }
+}
+
+@media screen and ( min-width: 1024px) {
+
+    .beginHome{
+        .beginHomeText{
+            width: 50%;
+            top: 77%;
+            right: 65px;
+        }
+    }
+}
+
+@media screen and ( min-width: 1332px) {
+
+    .beginHome{
+        .beginHomeText{
+            width: 70%;
+            top: 100%;
+            right: 85px;
+                
+            h4{
+                font-size: 40px;
+            }
+    
+            h1{
+                font-size: 50px;   
+            }
+        }
+    }
+}

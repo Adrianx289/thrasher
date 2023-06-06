@@ -1,0 +1,91 @@
+.about {
+  width: 100%;
+  margin-top: 1rem;
+}
+.about .aboutContainer {
+  margin: 0 20px;
+}
+.about .aboutContainer .aboutDivImgContainer {
+  gap: 10px;
+}
+.about .aboutContainer .aboutDivImgContainer .aboutDivImg {
+  padding: 1.5rem;
+  border: 1px solid var(--greyBg);
+  border-radius: 50px;
+}
+.about .aboutContainer .aboutDivImgContainer .aboutDivImg .aboutImg {
+  border-radius: 50px;
+}
+.about .aboutContainer .aboutDivImgContainer .aboutDivImg:hover {
+  border: 3px solid var(--thirdColor);
+}
+.about .aboutContainer .aboutDivText h2 {
+  font-size: 20px;
+  text-align: center;
+}
+.about .aboutContainer .aboutDivText p {
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+@media screen and (min-width: 480px) {
+  .about {
+    margin-top: 1.5rem;
+  }
+  .about .aboutContainer {
+    gap: 20px;
+  }
+  .about .aboutContainer .aboutDivImgContainer .aboutDivImg {
+    padding: 1.7rem;
+    border-radius: 70px;
+  }
+  .about .aboutContainer .aboutDivImgContainer .aboutDivImg .aboutImg {
+    border-radius: 70px;
+  }
+  .about .aboutContainer .aboutDivText h2 {
+    font-size: 22px;
+  }
+  .about .aboutContainer .aboutDivText p {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 570px) {
+  .about .aboutContainer .aboutDivText h2 {
+    font-size: 26px;
+  }
+  .about .aboutContainer .aboutDivText p {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .about {
+    margin-top: 2rem;
+  }
+  .about .aboutContainer {
+    margin: 0 70px;
+  }
+  .about .aboutContainer .aboutDivText h2 {
+    font-size: 28px;
+  }
+  .about .aboutContainer .aboutDivText p {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 960px) {
+  .about .aboutContainer {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+}
+@media screen and (min-width: 1332px) {
+  .about .aboutContainer {
+    gap: 30px;
+  }
+  .about .aboutContainer .aboutDivText h2 {
+    font-size: 35px;
+  }
+  .about .aboutContainer .aboutDivText p {
+    font-size: 22px;
+  }
+}/*# sourceMappingURL=About.css.map */

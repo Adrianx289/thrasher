@@ -1,0 +1,167 @@
+.header .headerDiv {
+  width: 100%;
+  padding: 0.5rem;
+  justify-content: space-between;
+}
+.header .headerDiv .logoDiv img {
+  width: 20%;
+  height: auto;
+}
+.header .headerDiv .logoDiv h2 {
+  padding-left: 15px;
+  color: var(--blackColor);
+  font-size: 20px;
+}
+.header .headerDiv .listDiv ul {
+  color: var(--blackColor);
+  gap: 0.5rem;
+}
+.header .headerDiv .listDiv ul li {
+  color: var(--textColor);
+}
+.header .headerDiv .listDiv ul li:hover {
+  color: var(--primaryColor);
+  font-weight: 700;
+}
+.header .headerDiv .toggleIcon .icon {
+  width: 30px;
+  height: auto;
+}
+
+@media screen and (max-width: 959px) {
+  .header .headerDiv .listDiv {
+    position: absolute;
+    top: 4.5rem;
+    right: -600px;
+    background: var(--greyBg);
+    box-shadow: var(--boxShadow);
+    border-radius: 20px;
+    border: 4px solid var(--whiteColor);
+    padding: 2rem 3rem;
+    width: 80%;
+    z-index: 2000;
+  }
+  .header .headerDiv .listDiv ul {
+    flex-direction: column;
+    text-align: center;
+  }
+  .header .headerDiv .listDiv ul li {
+    margin-bottom: 1rem;
+  }
+  .header .headerDiv .listDiv .btnList {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+  }
+  .header .headerDiv .showToggleList {
+    right: 30px;
+  }
+  .header .headerDiv .btnBar {
+    display: none;
+  }
+}
+@media screen and (min-width: 480px) {
+  .header .headerDiv .listDiv {
+    top: 96px;
+  }
+  .header .headerDiv .showToggleList {
+    right: 48px;
+  }
+  .header .headerDiv .toggleIcon .icon {
+    width: 35px;
+  }
+}
+@media screen and (min-width: 570px) {
+  .header .headerDiv .logoDiv h2 {
+    padding-left: 18px;
+    font-size: 28px;
+  }
+  .header .headerDiv .listDiv {
+    top: 111px;
+    font-size: 18px;
+  }
+  .header .headerDiv .showToggleList {
+    right: 55px;
+  }
+  .header .headerDiv .btnList {
+    font-size: 18px;
+  }
+  .header .headerDiv .toggleIcon .icon {
+    width: 45px;
+  }
+}
+@media screen and (min-width: 680px) {
+  .header .headerDiv .logoDiv img {
+    width: 18%;
+  }
+  .header .headerDiv .listDiv {
+    top: 122px;
+    width: 70%;
+  }
+  .header .headerDiv .showToggleList {
+    right: 103px;
+  }
+  .header .headerDiv .toggleIcon .icon {
+    width: 35px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header .headerDiv .listDiv {
+    top: 131px;
+  }
+}
+@media screen and (min-width: 960px) {
+  .header .headerDiv .listDiv {
+    margin-right: 30px;
+  }
+  .header .headerDiv .listDiv ul {
+    font-weight: 700;
+    gap: 35px;
+  }
+  .header .headerDiv .listDiv ul li {
+    font-size: 18px;
+  }
+  .header .headerDiv .listDiv .btnList {
+    display: none;
+  }
+  .header .headerDiv .toggleIcon {
+    display: none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .header .headerDiv .logoDiv img {
+    width: 22%;
+  }
+  .header .headerDiv .listDiv {
+    margin-right: 10px;
+  }
+  .header .headerDiv .listDiv ul li {
+    font-size: 19px;
+  }
+  .header .headerDiv .listDiv .btnList {
+    display: none;
+  }
+  .header .headerDiv .btnBar {
+    font-size: 19px;
+  }
+  .header .headerDiv .toggleIcon {
+    display: none;
+  }
+}
+@media screen and (min-width: 1332px) {
+  .header .headerDiv .logoDiv img {
+    width: 23%;
+  }
+  .header .headerDiv .listDiv {
+    margin-left: 250px;
+  }
+  .header .headerDiv .listDiv ul {
+    gap: 50px;
+  }
+  .header .headerDiv .listDiv ul li {
+    font-size: 20px;
+  }
+  .header .headerDiv .btnBar {
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=Header.css.map */

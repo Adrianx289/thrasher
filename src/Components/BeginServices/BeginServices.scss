@@ -1,0 +1,141 @@
+.beginServices{
+    width: 100%;
+    height: auto;
+
+    .beginServicesDivImg{
+        position: relative;
+    }
+
+    .beginServicesText{
+        width: 100%;
+        position: absolute;
+        top: 20%;
+
+        h1{
+            text-align: center; 
+            color: var(--whiteColor);
+            font-weight: 700;
+            font-size: 20px;   
+        }
+
+        h2{
+            padding: 0;
+            font-size: 20px;
+            font-weight: 700;
+            text-align: center;
+            color: var(--whiteColor);
+        }
+    }
+}
+
+@media screen and ( min-width: 480px) {
+    .beginServices{
+        .beginServicesText{
+            top: 26%;
+    
+            h1{
+                font-size: 30px;   
+            }
+    
+            h2{
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+@media screen and ( min-width: 570px) {
+    .beginServices{
+        .beginServicesText{
+            top: 28%;
+    
+            h1{
+                font-size: 40px;   
+            }
+    
+            h2{
+                font-size: 40px;
+            }
+        }
+    }
+}
+
+@media screen and ( min-width: 680px) {
+    .beginServices{
+        .beginServicesText{
+            top: 37%;
+    
+            h1{
+                font-size: 47px;   
+            }
+    
+            h2{
+                font-size: 47px;
+            }
+        }
+    }
+}
+
+@media screen and ( min-width: 768px) {
+    .beginServices{
+        .beginServicesText{
+            top: 42%;
+    
+            h1{
+                font-size: 55px;   
+            }
+    
+            h2{
+                font-size: 55px;
+            }
+        }
+    }
+}
+
+@media screen and ( min-width: 960px) {
+    .beginServices{
+        .beginServicesText{
+            top: 45%;
+    
+            h1{
+                font-size: 65px;   
+            }
+    
+            h2{
+                font-size: 65px;
+            }
+        }
+    }
+}
+
+@media screen and ( min-width: 1024px) {
+    .beginServices{
+        .beginServicesText{
+            top: 50%;
+    
+            h1{
+                font-size: 73px;   
+            }
+    
+            h2{
+                font-size: 73px;
+            }
+        }
+    }
+}
+
+@media screen and ( min-width: 1332px) {
+    .beginServices{
+        .beginServicesText{
+            top: 62%;
+    
+            h1{
+                font-size: 83px;   
+            }
+    
+            h2{
+                font-size: 83px;
+            }
+        }
+    }
+}
